@@ -1,27 +1,14 @@
-# Version Control with Git
+Created by Ana Moreira
+This repository contains projects and practice set for Udacity Programming For Data Science Using Python Nanodegree.
 
-This is the repo for [Udacity's Version Control with Git course](https://www.udacity.com/course/version-control-with-git--ud123). In the course, students will learn version control while learning the basics to intermediate knowledge of Git.
+Project 2
+Overview
+In this project, the student had to make use of Python to explore data related to bike share systems for three major cities in the United States — Chicago, New York City, and Washington. The student had to write code to (a) import the data and answer interesting questions about it by computing descriptive statistics, and (b) write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
-This repo contains the source code of a blog project that will be used throughout the course.
 
-## Table of Contents
+Files Used
+The required files for running this program are:
 
-* [Instructions](#instructions)
-* [Creator](#creators)
-
-## Instructions
-
-* clone the project
-* open the index file in a browser
-
-## Creators
-
-* Richard Kalehoff
-    - [https://github.com/richardkalehoff](https://github.com/richardkalehoff)
-    - [https://twitter.com/richardkalehoff](https://twitter.com/richardkalehoff)
-
-With the help of:
-
-* Colt
-* James
-* Julia
+washington.csv
+new_york_city.csv
+chicago.csv
