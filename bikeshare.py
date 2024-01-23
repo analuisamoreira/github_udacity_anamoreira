@@ -30,6 +30,9 @@ def get_filters():
         else:
             break
 
+    if city in ('washington'):
+	print ("Washington lacks user's data about gender and birth year")
+
     # get user input for month (all, january, february, ... , june)
     while True:
         month = input("Choose the month between January, February, March, " +
@@ -238,6 +241,7 @@ def display_data(df):
         
     
 def main():
+    # The main loop to keep the program running until the user decides to exit
     while True:
         city, month, day = get_filters()
         print("You selected {}, {}, and {}.".format(city.title(), month.title(), day.title()))
@@ -250,7 +254,7 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
+    print ("Thank you! See you again soon!")
 
 if __name__ == "__main__":
 	main()
